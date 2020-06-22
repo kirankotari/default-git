@@ -38,16 +38,18 @@ function fish_prompt
       set cwd (echo $PWD | sed -e "s|$parent_root_folder/||")
     end
 
-    echo -n -s $repository_color (git_branch_name) $normal_color " on "
-    echo -s $success_color $fish $normal_color
-    echo -n -s $directory_color $cwd $normal_color " "
-
-
+    echo -n -s $repository_color (git_branch_name) $normal_color 
     if git_is_touched
       echo -n -s $dirty
     else
       echo -n -s (git_ahead $ahead $behind $diverged $none)
     end
+    echo -s " on "
+    echo -n -s $success_color $fish $normal_color
+    echo -n -s $directory_color $cwd $normal_color $dirty " "
+
+
+    
   else
     echo -n -s " " $directory_color $cwd $normal_color
   end
