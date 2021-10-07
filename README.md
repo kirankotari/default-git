@@ -5,12 +5,12 @@
 </div>
 <br>
 
-> Default theme for [Oh My Fish][omf-link].
+> Default Git theme for [Oh My Fish][omf-link].
 
 ## Install
 
 ```fish
-$ omf theme default
+$ omf theme default-git
 ```
 
 ## Features
@@ -22,7 +22,7 @@ $ omf theme default
 ## Screenshot
 
 <p align="center">
-<img src="https://cloud.githubusercontent.com/assets/526122/9604024/ac338638-50ac-11e5-874a-70fa9287db93.png">
+<img src="./images/default-git.png">
 </p>
 
 ## Configuration
@@ -34,14 +34,12 @@ Only display the folder name:
 
 # License
 
-[MIT][mit] © [bpinto][author] et [al][contributors]
+[MIT][mit] © [kirankotari][author]  
+This theme is derived from [default][default-link]
 
 
 [mit]:            http://opensource.org/licenses/MIT
-[author]:         http://github.com/bpinto
-[contributors]:   https://github.com/oh-my-fish/theme-default/graphs/contributors
+[author]:         http://github.com/kirankotari
 [omf-link]:       https://www.github.com/fish-shell/oh-my-fish
+[default-link]:   https://github.com/oh-my-fish/theme-default
 
-[license-badge]:  https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square
-[travis-badge]:   http://img.shields.io/travis/oh-my-fish/theme-default.svg?style=flat-square
-[travis-link]:    https://travis-ci.org/oh-my-fish/theme-default
