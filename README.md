@@ -35,7 +35,7 @@ Only display the folder name:
 # License
 
 [MIT][mit] © [kirankotari][author]  
-This theme is derived from [default][default-link]
+This theme is derived from [default][default-link] et [al](https://github.com/kirankotari/default-git/graphs/contributors)
 
 
 [mit]:            http://opensource.org/licenses/MIT
